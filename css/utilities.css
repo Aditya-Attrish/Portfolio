@@ -20,11 +20,15 @@
   margin: 0 10px;
 }
 
+.justify-between{
+	justify-content: space-between;
+}
+
 .item-center{
   align-items: center;
 }
 
 .butt{
   padding: 5px 10px;
-  display: inline-block;
+  background-color: transparent;
 }
