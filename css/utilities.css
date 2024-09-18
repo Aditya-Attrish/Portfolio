@@ -11,3 +11,20 @@
 	text-decoration: none;
 	color: #fff;
 }
+
+.d-flex{
+  display: flex;
+}
+
+.mx-1{
+  margin: 0 10px;
+}
+
+.item-center{
+  align-items: center;
+}
+
+.butt{
+  padding: 5px 10px;
+  display: inline-block;
+}
