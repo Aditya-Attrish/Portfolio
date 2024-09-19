@@ -22,6 +22,15 @@
   display: flex;
 }
 
+.row{
+  display: flex;
+  flex-direction: column;
+}
+
+.gap-1{
+  gap: 10px;
+}
+
 .justify-between{
 	justify-content: space-between;
 }
@@ -36,8 +45,16 @@
 }
 
 /* padding */
+.pxy-1{
+  padding: 5px 10px;
+}
+
 .px-1{
   padding: 0 4vw;
+}
+
+.py-1{
+  padding: 1vh 0;
 }
 
 .px-1-5{
@@ -45,14 +62,18 @@
 }
 
 /* Button */
-.butt{
-  padding: 5px 10px;
-  background-color: transparent;
-  font-size: 18px;
+.but{
   border: none;
+  padding: 5px 10px;
 }
 
-.butt:active{
+.but-nav{
+  background-color: transparent;
+  font-size: 24px;
+  transition: color .3s ease-in-out;
+}
+
+.but-nav:active{
 	border-radius: 5px;
 	border: 2px solid #fff;
 }
@@ -60,4 +81,21 @@
 /* foreground & background color */
 .color-white{
 	color: #fff;
+}
+
+.bg-black{
+  background-color: #000;
+  color: #fff;
+}
+
+/*Form*/
+.form{
+  width: 80%;
+  padding: 6vh 5vw;
+}
+
+/*input & textarea*/
+input, textarea{
+  outline-color: #3936aac9;
+  outline-width: 2px;
 }
