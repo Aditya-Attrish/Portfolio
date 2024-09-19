@@ -10,15 +10,15 @@
 	<title>Portfolio</title>
 </head>
 <body>
-	<header class="header d-flex justify-between color-white">
+	<header class="header d-flex px-1 justify-between color-white">
 		<div class="d-flex justify-between">
 			<div class="logo">
 				<h1>Aditya</h1>
 			</div>
 			<button id="Hamburger-menu" class="butt color-white">&#9776;</button>
 		</div>
-		<nav class="nav">
-			<ul class="nav-list">
+		<nav id="topbar" class="nav">
+			<ul class="nav-list d-flex">
 				<li><a class="nav-link" href="#home">Home</a></li>
 				<li><a class="nav-link" href="#about">About me</a></li>
 				<li><a class="nav-link" href="#contact">Contact me</a></li>
@@ -36,11 +36,12 @@
 		</section>
 		
 		<section id="contact">
-			<form class="form" action="#" method="get" accept-charset="utf-8">
+			<form class="form row" action="#">
 				<input type="text" />	
 				<input type="email" />
 				<input type="number" />
-				<textarea id="message" rows="8" cols="40"></textarea>
+				<textarea id="message"></textarea>
+				<input value="Sumit" type="button" class="butt bg-black">
 			</form>
 		</section>
 	</main>
