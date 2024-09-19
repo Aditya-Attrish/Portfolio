@@ -1,0 +1,12 @@
+/* header */
+.header{
+  align-items: center;
+}
+
+#Hamburger-menu{
+  display: none;
+}
+
+#topbar ul{
+  gap: 10px;
+}
