@@ -3,6 +3,11 @@
 	padding: 0;
 }
 
+.header{
+	position: sticky;
+	background-color: #000;
+}
+
 .nav-list{
 	list-style: none;
 }
@@ -12,12 +17,9 @@
 	color: #fff;
 }
 
+/*Flexbox*/
 .d-flex{
   display: flex;
-}
-
-.mx-1{
-  margin: 0 10px;
 }
 
 .justify-between{
@@ -28,7 +30,25 @@
   align-items: center;
 }
 
+/*margin*/
+.mx-1{
+  margin: 0 10px;
+}
+
+/* Button */
 .butt{
   padding: 5px 10px;
   background-color: transparent;
+  font-size: 18px;
+  border: none;
+}
+
+.butt:active{
+	border-radius: 5px;
+	border: 2px solid #fff;
+}
+
+/* foreground & background color */
+.color-white{
+	color: #fff;
 }
