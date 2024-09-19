@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
 	<link rel="stylesheet" href="css/mobile.css" type="text/css" media="only screen and (max-width: 600px)" />
 	<title>Portfolio</title>
 </head>
+
 <body>
 	<header class="header d-flex px-1 justify-between color-white">
 		<div class="d-flex justify-between item-center">
@@ -27,19 +29,25 @@
 	</header>
 	
 	<main id="main">
-		<section id="home">
-			Home section
+		<section id="home" class="hero">
+			<div class="container pxy-1">
+				<h1 class="hero-title">Elevate Your Business Online</h1>
+				<p class="hero-subtitle">Expert web development and design tailored to your needs.</p>
+			</div>
+	<!--		<img src="hero-image.jpg" alt="Hero Image" class="hero-image">-->
 		</section>
 		
 		<section id="about">
-		  <h2 class="bg-black">About me</h2>
-			About section
+			<h2 class="bg-black">About me</h2>
+			<div class="pxy-1">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, eligendi? Aut quidem quaerat esse cumque recusandae ducimus adipisci, nulla, minus facilis, odit, eaque!</p>
+			</div>
 		</section>
 		
 		<section id="contact">
-		  <h2 class="bg-black">Contact me</h2>
+			<h2 class="bg-black">Contact me</h2>
 			<form class="form row gap-1" action="#">
-				<input type="text" class="pxy-1" placeholder="Enter your full name" />	
+				<input type="text" class="pxy-1" placeholder="Enter your full name" />
 				<input type="email" class="pxy-1" placeholder="Enter your email" />
 				<input type="number" class="pxy-1" placeholder="Enter your phone number" />
 				<textarea id="message" class="pxy-1" placeholder="Enter your message"></textarea>
@@ -49,18 +57,20 @@
 	</main>
 	
 	<footer class="bg-black py-1">
-	    <div class="row item-center">
-        	<div>
-                <!-- Add social media icons and links in the footer -->
-                <a href="https://www.facebook.com/profile.php/?id=100088104410209" target="_blank" class="mr-8"><img src="svg/facebook.svg"></a>
-                <a href="YOUR_INSTAGRAM_LINK" target="_blank" class="mr-8"><img src="svg/instagram.svg"></a>
-                <a href="YOUR_LINKEDIN_LINK" target="_blank"><img src="svg/linkedin.svg"></a>
-            </div>
-            <div>
-                <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-            </div>
-	    </div>
+		<div class="row item-center">
+			<div>
+				<!-- Add social media icons and links in the footer -->
+				<a href="https://www.facebook.com/profile.php/?id=100088104410209" target="_blank" class="mr-8"><img
+																																			src="svg/facebook.svg"></a>
+				<a href="YOUR_INSTAGRAM_LINK" target="_blank" class="mr-8"><img src="svg/instagram.svg"></a>
+				<a href="YOUR_LINKEDIN_LINK" target="_blank"><img src="svg/linkedin.svg"></a>
+			</div>
+			<div>
+				<p>&copy; 2024 My Portfolio. All rights reserved.</p>
+			</div>
+		</div>
 	</footer>
 	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 </body>
+
 </html>
