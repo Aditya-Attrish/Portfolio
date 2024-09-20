@@ -8,5 +8,6 @@
 }
 
 #topbar ul{
-  gap: 10px;
+  align-items: center;
+  gap: 0 3vw;
 }
