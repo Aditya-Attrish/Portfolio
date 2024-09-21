@@ -68,6 +68,10 @@ h2{
   padding: 5px 10px;
 }
 
+.pxy-2{
+  padding: 10px 20px;
+}
+
 .px-1{
   padding: 0 4vw;
 }
@@ -124,6 +128,9 @@ h2{
 
 .text-size-2{
   font-size: 34px;
+}
+.text-center{
+  text-align: center;
 }
 
 /*input & textarea*/
